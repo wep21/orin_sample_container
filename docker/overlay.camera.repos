@@ -1,0 +1,33 @@
+repositories:
+  v4l2_camera:
+    type: git
+    url: https://gitlab.com/boldhearts/ros2_v4l2_camera.git
+    version: humble
+  sample_camera_description:
+    type: git
+    url: https://github.com/wep21/sample_camera_description.git
+    version: main
+  turbojpeg_compressed_image_transport:
+    type: git
+    url: https://github.com/wep21/turbojpeg_compressed_image_transport.git
+    version: main
+  image_common:
+    type: git
+    url: https://github.com/wep21/image_common.git
+    version: enable-plugin-blacklist
+  negotiated:
+    type: git
+    url: https://github.com/osrf/negotiated.git
+    version: master
+  isaac_ros_nitros:
+    type: git
+    url: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_nitros.git
+    version: main
+  isaac_ros_image_pipeline:
+    type: git
+    url: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_image_pipeline.git
+    version: main
+  isaac_ros_common:
+    type: git
+    url: https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common.git
+    version: main
